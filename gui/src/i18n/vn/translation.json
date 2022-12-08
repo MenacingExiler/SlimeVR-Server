@@ -1,36 +1,36 @@
 {
   "websocket": {
-    "connecting": "Connecting to the server",
-    "connection-lost": "Connection lost to the server. Trying to reconnect..."
+    "connecting": "Đang kết nối với máy chủ",
+    "connection-lost": "Kết nối với máy chủ đã mất. Đang kết nối lại..."
   },
   "tips": {
-    "find-tracker": "Not sure which tracker is which? Shake a tracker and it will highlight the corresponding item.",
-    "do-not-move-heels": "Ensure your heels do not move during recording!"
+    "find-tracker": "Không rõ tracker nào? Lắc tracker và trong menu sẽ sáng lên.",
+    "do-not-move-heels": "Hãy đảm bảo gót chân không cử động trong khi đo ghi!"
   },
   "body-part": {
-    "NONE": "Unassigned",
-    "HEAD": "Head",
-    "NECK": "Neck",
-    "RIGHT_SHOULDER": "Right shoulder",
-    "RIGHT_UPPER_ARM": "Right upper arm",
-    "RIGHT_LOWER_ARM": "Right lower arm",
-    "RIGHT_HAND": "Right hand",
-    "RIGHT_UPPER_LEG": "Right upper leg",
-    "RIGHT_LOWER_LEG": "Right lower leg",
-    "RIGHT_FOOT": "Right foot",
-    "CHEST": "Chest",
-    "WAIST": "Waist",
-    "HIP": "Hip",
-    "LEFT_SHOULDER": "Left shoulder",
-    "LEFT_UPPER_ARM": "Left upper arm",
-    "LEFT_LOWER_ARM": "Left lower arm",
-    "LEFT_HAND": "Left hand",
-    "LEFT_UPPER_LEG": "Left upper leg",
-    "LEFT_LOWER_LEG": "Left lower leg",
-    "LEFT_FOOT": "Left foot"
+    "NONE": "Chưa liên kết",
+    "HEAD": "Đầu",
+    "NECK": "Cổ",
+    "RIGHT_SHOULDER": "Vai phải",
+    "RIGHT_UPPER_ARM": "Tay phải trên",
+    "RIGHT_LOWER_ARM": "Tay phải dưới",
+    "RIGHT_HAND": "Tay phải",
+    "RIGHT_UPPER_LEG": "Chân phải trên",
+    "RIGHT_LOWER_LEG": "chân phải dưới",
+    "RIGHT_FOOT": "Bàn chân phải",
+    "CHEST": "Ngực",
+    "WAIST": "Eo",
+    "HIP": "Hông",
+    "LEFT_SHOULDER": "Vai trái",
+    "LEFT_UPPER_ARM": "Tay trái trên",
+    "LEFT_LOWER_ARM": "tay trái dưới",
+    "LEFT_HAND": "Tay trái",
+    "LEFT_UPPER_LEG": "Chân trái trên",
+    "LEFT_LOWER_LEG": "Chân trái dưới",
+    "LEFT_FOOT": "Bàn chân trái"
   },
   "skeleton-bone": {
-    "NONE": "None",
+    "NONE": "Chưa liên kết",
     "HEAD": "Head Shift",
     "NECK": "Neck Length",
     "TORSO": "Torso Length",
@@ -52,173 +52,173 @@
     "ELBOW_OFFSET": "Elbow Offset"
   },
   "reset": {
-    "reset-all": "Reset all proportions",
+    "reset-all": "Reset tất cả bộ phận",
     "full": "Reset",
-    "mounting": "Reset Mounting",
-    "quick": "Quick Reset"
+    "mounting": "Reset vị trí cài",
+    "quick": "Reset nhanh"
   },
   "serial-detection": {
     "new-device.p0": "New serial device detected!" ,
-    "new-device.p1": "Enter your wifi credentials!",
-    "new-device.p2": "Please select what you want to do with it",
-    "open-wifi": "Connect to WiFi",
-    "open-serial": "Open Serial Console",
-    "submit": "Submit!",
-    "close": "Close"
+    "new-device.p1": "Vui lòng nhập thông tin Wi-Fi!",
+    "new-device.p2": "Vui lòng chọn những gì làm với nó",
+    "open-wifi": "Kết nối Wi-Fi",
+    "open-serial": "Mở Serial Console",
+    "submit": "Đăng lên!",
+    "close": "Đóng"
   },
   "navbar": {
     "home": "Home",
-    "body-proportions": "Body Proportions",
-    "trackers-assign": "Tracker Assignment",
-    "mounting": "Mounting Calibration",
-    "onboarding": "Setup Wizard",
-    "settings": "Settings"
+    "body-proportions": "Bộ phận cơ thể",
+    "trackers-assign": "Giao bộ phận tracker",
+    "mounting": "Đo vị trí đặt",
+    "onboarding": "Trình hướng dẫn cài đặt",
+    "settings": "Cài đặt"
   },
   "bvh": {
-    "start-recording": "Record BVH",
-    "recording": "Recording..."
+    "start-recording": "Ghi BVH",
+    "recording": "Đang ghi..."
   },
   "overlay": {
-    "is-visible-label": "Show Overlay in SteamVR",
-    "is-mirrored-label": "Display Overlay as Mirror"
+    "is-visible-label": "Xem overlay trên SteamVR",
+    "is-mirrored-label": "Xem overlay trong gương"
   },
   "tracker": {
     "status": {
-      "none": "No Status",
-      "busy": "Busy",
-      "error": "Error",
-      "disconnected": "Disconnected",
-      "occluded": "Occluded",
-      "ok": "Connected"
+      "none": "Không có tình trạng",
+      "busy": "Bận",
+      "error": "Lỗi",
+      "disconnected": "Đã ngắt kết nối",
+      "occluded": "Bị tắc",
+      "ok": "Đã kết nối"
     },
     "table": {
       "column": {
-        "name": "Name",
-        "type": "Type",
-        "battery": "Battery",
+        "name": "Tên",
+        "type": "Loại",
+        "battery": "Pin",
         "ping": "Ping",
-        "rotation": "Rotation X/Y/Z",
-        "position": "Position X/Y/Z",
+        "rotation": "Chiều chuyển X/Y/Z",
+        "position": "Vị trí X/Y/Z",
         "url": "URL"
       }
     },
     "rotation": {
-      "front": "Front",
-      "left": "Left",
-      "right": "Right",
-      "back": "Back" 
+      "front": "Đằng trước",
+      "left": "Bên trái",
+      "right": "Bên phải",
+      "back": "Đằng sau" 
     },
     "infos": {
-      "manufacturer": "Manufacturer",
-      "display-name": "Display Name",
-      "custom-name": "Custom Name",
+      "manufacturer": "Nhà sản xuất",
+      "display-name": "Tên gọi",
+      "custom-name": "Tên tự chọn",
       "url": "Tacker URL"
     },
     "settings": {
-      "back": "Go back to trackers list",
-      "title": "Tracker settings",
+      "back": "Quay lại danh sách tracker",
+      "title": "Cài đặt tracker",
       "assignment-section": {
-        "title": "Assignment",
-        "description": "What part of the body the tracker is assigned to.",
-        "edit": "Edit assignment"
+        "title": "Giao bộ phận",
+        "description": "Thiết bị này được giao cho bộ phận nào.",
+        "edit": "Chỉnh lại giao bộ phận"
       },
       "mounting-section": {
-        "title": "Mounting position",
-        "description": "Where is the tracker mounted?",
-        "edit": "Edit mounting"
+        "title": "Vị trí đặt bộ phận",
+        "description": "Tracker đặt ở đâu?",
+        "edit": "Chỉnh lại chỗ đặt"
       },
       "name-section": {
-        "title": "Tracker name",
-        "description": "Give it a cute nickname :)",
+        "title": "Tên tracker",
+        "description": "Hãy cho một tên đẹp :)",
         "input-placeholder": "NightyBeast's left leg"
       }
     },
     "part-card": {
-      "no-name": "No name",
-      "unassigned": "Unassigned"
+      "no-name": "Không tên",
+      "unassigned": "Chưa giao vị trí"
     }
   },
   "body-assignment-menu": {
-    "title": "Where do you want this tracker to be?",
-    "description": "Choose a location where you want this tracker to be assigned. Alternatively you can choose to manage all trackers at once instead of one by one.",
-    "show-advanced-locations": "Show advanced assign locations",
-    "manage-trackers": "Manage all trackers",
-    "unassign-tracker": "Unassign tracker"
+    "title": "Bạn muốn giao tracker này cho bộ phận nào?",
+    "description": "Chọn vị trí bạn muốn giao tracker cho. Ngoài ra, bạn có thể quản lí tất cả tracker cùng một lúc thay vì từng cái một.",
+    "show-advanced-locations": "Xem thêm vị trí đặt",
+    "manage-trackers": "Quản lí tất cả tracker",
+    "unassign-tracker": "Tracker chưa giao vị trí"
   },
   "tracker-selection-menu": {
-    "title": "Which tracker to assign to the {{bodyPart}}?",
-    "unassigned": "Unassigned Trackers",
-    "assigned": "Assigned Trackers",
-    "dont-assign": "Do not assign"
+    "title": "Tracker nào để giao cho {{bodyPart}}?",
+    "unassigned": "Chưa giao vị trí",
+    "assigned": "Đã giao vị trí",
+    "dont-assign": "Thoát và không giao"
   },
   "mounting-selection-menu": {
-    "title": "Where do you want this tracker to be?",
-    "close": "Close"
+    "title": "Bạn muốn giao tracker này ở đâu?",
+    "close": "Đóng"
   },
   "settings": {
     "sidebar": {
-      "title": "Settings",
-      "general": "General",
-      "tracker-mechanics": "Tracker mechanics",
-      "fk-settings": "FK settings",
-      "interface": "Interface",
-      "utils": "Utilities",
+      "title": "Cài đặt",
+      "general": "Cài đặt chung",
+      "tracker-mechanics": "Cơ khí tracker",
+      "fk-settings": "Cài đặt FK",
+      "interface": "Giao diện",
+      "utils": "Hữu dụng",
       "serial": "Serial Console"
     },
     "general": {
       "steamvr": {
         "title": "SteamVR",
         "subtitle": "SteamVR trackers",
-        "description.p0": "Enable or disable specific tracking parts.",
-        "description.p1": "Useful if you want more control over what SlimeVR does.",
+        "description.p0": "Bặt hoặc tắt tracker SteamVR.",
+        "description.p1": "Hữu dụng nếu bạn muốn điều khiển cách SlimeVR hoạt động.",
         "trackers": {
-          "waist": "Waist",
-          "chest": "Chest",
-          "feet": "Feet",
-          "knees": "Knees",
-          "elbows": "Elbows"
+          "waist": "Eo",
+          "chest": "Ngực",
+          "feet": "Bàn chân",
+          "knees": "Đầu gối (Chân)",
+          "elbows": "Khuỷu tay"
         }
       },
       "tracker-mechanics": {
-        "title": "Tracker mechanics",
-        "subtitle": "Filtering",
-        "description.p0": "Choose the filtering type for your trackers.",
-        "description.p1": "Prediction predicts movement while smoothing smoothens movement.",
+        "title": "Cơ khí tracker",
+        "subtitle": "Lọc rung",
+        "description.p0": "Chọn kiểu lọc rung cho tracker.",
+        "description.p1": "Dự đoán đoán cử động trong khi lọc rung cử động.",
         "filtering-type": {
-          "title": "Filtering type",
+          "title": "Kiểu lọc",
           "none": {
-            "label": "No filtering",
-            "description":"Use rotations as is. Will not do any filtering."
+            "label": "Không lọc",
+            "description":"Để đo chiều chuyển y nguyên. Không sử dụlọclọc."
           },
           "smoothing": {
-            "label": "Smoothing",
-            "description":"Smooths movements but adds some latency."
+            "label": "Làm mượt",
+            "description":"Lọc cử động mượt nhưng tạo ít chậm rễ."
           },
           "prediction": {
-            "label": "Prediction",
-            "description":"Reduces latency and makes movements more snappy, but may increase jitter."
+            "label": "Dự đoán",
+            "description":"Giảm chậm trê và để cử động gọn hơn, nhưng có thể tăng độ rung."
           }
         },
         "amount": {
-          "label": "Amount"
+          "Ghi chú": "Số luọng"
         }
       },
       "fk-settings": {
-        "title": "FK settings",
+        "title": "Cài đặt FK",
         "leg-tweak": {
-          "title": "Leg tweaks",
-          "description": "Floor-clip can Reduce or even eliminates clipping with the floor but may cause problems when on your knees. Skating-correction corrects for ice skating, but can decrease accuracy in certain movement patterns.",
-          "floor-clip": "Floor clip",
-          "skating-correction": "Skating correction"
+          "title": "Chỉnh chân",
+          "description": "Chỉnh chân có thể giảm hoặc loại bỏ chân đi xuyên sàn nhà nhưng có thể ảnh hưởng đầu gối. Sửa trượt sửa khi lướt, nhưng giảm độ chính xác ở một số cử động.",
+          "floor-clip": "Xuyên sàn",
+          "skating-correction": "Sửa trượt"
         },
         "arm-fk": {
-          "title": "Arm FK",
-          "description": "Change the way the arms are tracked.",
-          "force-arms": "Force arms from HMD"
+          "title": "Tay FK",
+          "description": "Chỉnh cách tay được đo.",
+          "force-arms": "Bắt tay từ kính thực tế ảo"
         },
         "skeleton-settings": {
-          "title": "Skeleton settings",
-          "description": "Toggle skeleton settings on or off. It is recommended to leave these on.",
+          "title": "Cài đặt cơ thể",
+          "description": "Bật hoặc tắt hình cơ thể. Khuyên nên luôn để bật lựa chọn này.",
           "extended-spine": "Extended spine",
           "extended-pelvis": "Extended pelvis",
           "extended-knees": "Extended knee"
