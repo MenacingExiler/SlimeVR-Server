@@ -14,6 +14,10 @@ export const langs = [
     name: 'Français',
     key: 'fr',
   },
+  {
+    name: 'Tiếng Việt',
+    key: 'vn',
+  },
 ];
 
 export const resources = {
@@ -22,6 +26,9 @@ export const resources = {
   },
   fr: {
     tanslations: fr,
+  },
+  fr: {
+    tanslations: vn,
   },
 };
 
