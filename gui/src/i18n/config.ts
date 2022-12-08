@@ -27,7 +27,7 @@ export const resources = {
   fr: {
     tanslations: fr,
   },
-  fr: {
+  vn: {
     tanslations: vn,
   },
 };
