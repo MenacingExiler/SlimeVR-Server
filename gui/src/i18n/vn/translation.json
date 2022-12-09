@@ -31,25 +31,25 @@
   },
   "skeleton-bone": {
     "NONE": "Chưa liên kết",
-    "HEAD": "Head Shift",
-    "NECK": "Neck Length",
-    "TORSO": "Torso Length",
-    "CHEST": "Chest Distance",
-    "WAIST": "Waist Distance",
-    "HIP_OFFSET": "Hip Offset",
-    "HIPS_WIDTH": "Hips Width",
-    "LEGS_LENGTH": "Legs Length",
-    "KNEE_HEIGHT": "Knee Height",
-    "FOOT_LENGTH": "Foot Length",
-    "FOOT_SHIFT": "Foot Shift",
-    "SKELETON_OFFSET": "Skeleton Offset",
-    "CONTROLLER_DISTANCE_Z": "Controller Distance Z",
-    "CONTROLLER_DISTANCE_Y": "Controller Distance Y",
-    "FOREARM_LENGTH": "Forearm Distance",
-    "SHOULDERS_DISTANCE": "Shoulders Distance",
-    "SHOULDERS_WIDTH": "Shoulders Width",
-    "UPPER_ARM_LENGTH": "Upper Arm Length",
-    "ELBOW_OFFSET": "Elbow Offset"
+    "HEAD": "Đầu ca",
+    "NECK": "Cổ dài",
+    "TORSO": "Chiều dài thân",
+    "CHEST": "Khoảng cách ngực",
+    "WAIST": "Khoảng cách eo",
+    "HIP_OFFSET": "Lệc đo hông",
+    "HIPS_WIDTH": "Chiều rộng hông",
+    "LEGS_LENGTH": "Chiều dài chân",
+    "KNEE_HEIGHT": "Chiều cao đầu gối",
+    "FOOT_LENGTH": "CHiều dài bàn chân",
+    "FOOT_SHIFT": "Lệch đo bàn chân",
+    "SKELETON_OFFSET": "Lệch đo thân",
+    "CONTROLLER_DISTANCE_Z": "Khoảng cách tay cầm Z",
+    "CONTROLLER_DISTANCE_Y": "Khoảng cách tay cầm Y",
+    "FOREARM_LENGTH": "khoảng cách cánh tay",
+    "SHOULDERS_DISTANCE": "Khoảng cách vai",
+    "SHOULDERS_WIDTH": "Chiều rộng vai",
+    "UPPER_ARM_LENGTH": "Chiều dài tay trên",
+    "ELBOW_OFFSET": "Lệch đo khuỷu tay"
   },
   "reset": {
     "reset-all": "Reset tất cả bộ phận",
@@ -219,242 +219,242 @@
         "skeleton-settings": {
           "title": "Cài đặt cơ thể",
           "description": "Bật hoặc tắt hình cơ thể. Khuyên nên luôn để bật lựa chọn này.",
-          "extended-spine": "Extended spine",
-          "extended-pelvis": "Extended pelvis",
-          "extended-knees": "Extended knee"
+          "extended-spine": "Xương sống mở rộng",
+          "extended-pelvis": "Xuong chậu mở rộng",
+          "extended-knees": "Đầu gối mở rộng"
         }
       },
       "gesture-control": {
-        "title": "Gesture Control",
-        "subtitle": "Double Tap quick reset",
-        "description": "Enable or disable double tap quick reset. When enabled double tapping anywhere on the highest torso tracker will activate a quick reset. Delay is the time between registering a tap and resetting.",
-        "enable": "Double tap quick reset",
-        "delay": "Delay"
+        "title": "Điều khiển cử chỉ",
+        "subtitle": "Bấm hai lần để reset nhanh",
+        "description": "Bật hoặc tắt reset nhanh. Khi bật bấm hai lần bất cứ đâu trên điểm cao nhất ở thân sẽ kích hoạt reset nhanh. Delay is the time between registering a tap and resetting.",
+        "enable": "Bấm hai lần để reset nhanh",
+        "delay": "Chậm trễ"
       },
       "interface": {
-        "title": "Interface",
+        "title": "Giao diện",
         "dev-mode": {
-          "title": "Developer Mode",
-          "description": "This mode can be useful if you need in-depth data or to interact with connected trackers on a more advanced level",
-          "label": "Developer Mode"
+          "title": "Chế độ nhà phát triển",
+          "description": "Chế độ này có thể hữu dụng nếu như bạn cần thông tin sâu hơn hoặc giao tiếp với tracker nâng cao",
+          "label": "Chế độ nhà phát triển"
         },
         "serial-detection": {
-          "title": "Serial device detection",
-          "description": "This option will show a pop-up every time you plug a new serial device that could be a tracker. It helps improving the setup process of a tracker",
-          "label": "Serial device detection"
+          "title": "Phát hiện thiết bị Serial",
+          "description": "Lựa chọn này sẽ hiển thị thông báo mỗi lần thiết bị Serial mà có thể là tracker.Lựa chọn này có thể giúp quá trình cài đạt tracker",
+          "label": "Phát hiện thiết bị Serial"
         },
         "lang": {
-          "title": "Select language",
-          "description": "Change the default language you want to use",
-          "placeholder": "Select the language to use"
+          "title": "Chọn ngôn ngữ (Change language)",
+          "description": "Đổi ngôn ngữ cố định (Change the default language you want to use)",
+          "placeholder": "Chọn ngôn ngữ để sử dụng (Select the language to use)"
         }
       }
     },
     "serial": {
-      "title": "Serial Console",
-      "description.p0": "This is a live information feed for serial communication.",
-      "description.p1": "May be useful if you need to know the firmware is acting up.",
-      "connection-lost": "Connection to serial lost, Reconnecting...",
-      "reboot": "Reboot",
-      "factory-reset": "Factory Reset",
-      "get-infos": "Get Infos",
-      "serial-select": "Select a serial port",
-      "auto-dropdown-item": "Auto"
+      "title": "Bảng điều khiển serial",
+      "description.p0": "Đâu là thông tin trực tiếp về giao tiếp với Serial.",
+      "description.p1": "Hữu dụng nếu muốn biết phần mềm firmware có vấn đề không.",
+      "connection-lost": "Kết nối đến Serial đã mất, đang kết nối lại...",
+      "reboot": "Khởi động lại",
+      "factory-reset": "Khôi phục cài đặt gối",
+      "get-infos": "Lấy thông tin",
+      "serial-select": "Chọn cổng Serial",
+      "auto-dropdown-item": "Tự động"
     },
     "osc": {
       "vrchat": {
-        "description.p0": "Change VRChat-specific settings to receive HMD data and send",
-        "description.p1": "trackers data for FBT (works on Quest standalone).",
+        "description.p0": "Đổi cài đặt dành riêng cho VRChat để nhận thông tin từ kính thực tế ảo và gửi",
+        "description.p1": "thông tin tracker để track toàn thân (Hoạt động trên Quest một mình standalone).",
         "enable": {
-          "title": "Enable",
-          "description": "Toggle the sending and receiving of data",
-          "label": "Enable"
+          "title": "Bật",
+          "description": "Chình gửi và nhận thông tin",
+          "label": "Bật"
         },
         "network": {
-          "title": "Network ports",
-          "description": "Set the ports for listening and sending data to VRChat",
+          "title": "Cổng mạng",
+          "description": "Chọn cổng mạng để nghe và gửi thông tin lên VRChat",
           "port-in": {
-            "label": "Port In",
-            "placeholder": "Port in (default: 9001)"
+            "label": "Cổng vào",
+            "placeholder": "Cổng vào (Cố định: 9001)"
           },
           "port-out": {
-            "label": "Port Out",
-            "placeholder": "Port out (default: 9000)"
+            "label": "Cổng ra",
+            "placeholder": "Cổng ra (Cố định: 9000)"
           },
           "address": {
-            "title": "Network address",
-            "description": "Choose which address to send out data to VRChat (check your wifi settings on your device)",
-            "placeholder": "VRChat ip address"
+            "title": "Địa chỉ mạng",
+            "description": "Chọn địa chỉ mạng nào để gứi lên VRChat (Hãy kiểm tra cài đặt Wi-Fi trên thiết bị để tìm cái này)",
+            "placeholder": "Địa chỉ IP cho VRChat"
           },
           "trackers": {
             "title": "Trackers",
-            "description": "Toggle the sending and receiving of data",
-            "chest": "Chest",
-            "waist": "Waist",
-            "knees": "Knees",
-            "feet": "Feet",
-            "elbows": "Elbows"
+            "description": "Chỉnh gửi và nhận thông tin",
+            "chest": "Ngực",
+            "waist": "Eo",
+            "knees": "Đầu gối",
+            "feet": "Bàn chân",
+            "elbows": "Khuỷu tay"
           }
         }
       }
     }
   },
   "onboarding": {
-    "skip": "Skip setup",
-    "continue": "Continue",
-    "wip": "Work in progress",
+    "skip": "Bỏ qua cài đặt",
+    "continue": "Tiếp tục",
+    "wip": "Đang làm dở (vui lòng quay lại sau update)",
     "wifi-creds": {
-      "back": "Go Back to introduction",
-      "title": "Input WiFi credentials",
-      "description.p0": "The Trackers will use these credentials to connect wirelessly",
-      "description.p1": "please use the credentials that you are currently connected to",
-      "skip": "Skip wifi settings",
-      "submit": "Submit!"
+      "back": "Quay lại đoạn giới thiệuthiệu",
+      "title": "Bỏ thông tin Wi-Fi ở đây",
+      "description.p0": "Tracker sẽ sử dụng thông tin sau để kết nối không dây",
+      "description.p1": "vui lòng bỏ thông tin bạn muốn kết nối",
+      "skip": "Bỏ qua cài đặt Wi-Fi",
+      "submit": "Thiết lập!"
     },
     "reset-tutorial": {
-      "back": "Go Back to Mounting calibration",
-      "title": "Reset tutorial",
-      "description": "This feature isn't done, just press continue"
+      "back": "Quay lại đo đạt vị trí",
+      "title": "Làm lại hướng dẫn",
+      "description": "Tính năng này chưa hoàn thiện, vui lòng bấm tiếp tục và quay lại sau update"
     },
     "home": {
-      "title": "Welcome to SlimeVR",
-      "description.p0": "Bringing full-body tracking",
-      "description.p1": "to everyone",
-      "start": "Lets get set up!"
+      "title": "Chào mừng đến với SlimeVR!",
+      "description.p0": "Đem đến đo toàn thân",
+      "description.p1": "tới tất cả",
+      "start": "Hãy bắt đầu cài đặt!"
     },
     "enter-vr": {
-      "back": "Go Back to Tracker assignent",
-      "title": "Time to enter VR!",
-      "description": "Put on all your trackers and then enter VR!",
-      "ready": "I'm ready"
+      "back": "Quay lại giao bộ phận tracker",
+      "title": "Đến giờ lên VR!",
+      "description": "Đeo tất cả tracker và lên VR!",
+      "ready": "Sẵn sàng!"
     },
     "done": {
-      "title": "You're all set!",
-      "description": "Enjoy your full body experience",
-      "close": "Close the guide"
+      "title": "Bạn đã hoàn thành cài đặt!",
+      "description": "Hãy tận hưởng đo toàn thân",
+      "close": "Đóng hướng dẫn"
     },
     "connect-tracker": {
-      "back": "Go Back to WiFi credentials",
-      "title": "Connect trackers",
-      "description.p0": "Now onto the fun part, connecting all the trackers!",
-      "description.p1": "Simply connect all that aren't connected yet, through a USB port.",
+      "back": "Quay lại tra thông tin Wi-Fi",
+      "title": "Kết nối tracker",
+      "description.p0": "Đến giờ đoạn hay nhất, kết nối tất cả tracker!",
+      "description.p1": "Đơn thuần kết nối tất cả tracker chưa kết nối, qua cổng USB",
       "issue": {
-        "serial": "I'm having trouble connecting!"
+        "serial": "Mình có vấn đề kết nối!"
       },
       "usb": "USB Tracker",
       "connection-status": {
-        "connecting": "Sending wifi credentials",
-        "connected": "Connected to WiFi",
-        "error": "Unable to connect to Wifi",
-        "start-connecting": "Looking for trackers",
-        "handshake": "Connected to the Server"
+        "connecting": "Đang gửi thông tin Wi-Fi",
+        "connected": "Đã kết nối Wi-Fi",
+        "error": "Không thể kết nối Wi-Fi",
+        "start-connecting": "Đang tìm tracker",
+        "handshake": "Đã kết nối với máy chủ"
       },
-      "connected-trackers": "{{amount}} tackers connected",
-      "next": "I connected all my trackers"
+      "connected-trackers": "{{amount}} tracker đã kết nối",
+      "next": "Tôi đã kết nối tất cả tracker"
     },
     "assign-trackers": {
-      "back": "Go Back to Wifi Credentials",
-      "title": "Assign trackers",
-      "description": "Let's choose which tracker goes where. Click on a location where you want to place a tracker",
-      "assigned": "{{assigned}} of {{trackers}} trackers assigned",
-      "advanced": "Show advanced assign locations",
-      "next": "I assigned all the trackers"
+      "back": "Quay lại tra thông tin Wi-Fi",
+      "title": "Giao tracker",
+      "description": "Hãy chọn tracker nào nằm ở đâu. Chọn vị trí bạn muốn giao tracker cho",
+      "assigned": "{{assigned}} trong {{trackers}} tracker đã được giao",
+      "advanced": "Xem vị trí mở rộng",
+      "next": "Hoàn thành"
     },
     "manual-mounting": {
-      "back": "Go Back to Enter VR",
-      "title": "Manual Mounting",
-      "description": "Click on every tracker and select which way they are mounted",
-      "auto-mounting": "Automatic mounting",
-      "next": "Next step"
+      "back": "Quay lại đến vào VR",
+      "title": "Đặt thủ công",
+      "description": "Bấm từng tracker một và chọn xem nó được gắn theo chiều nào",
+      "auto-mounting": "Gắn tự động",
+      "next": "Bước tiếp theo"
     },
     "automatic-mounting": {
-      "back": "Go Back to Enter VR",
-      "title": "Mounting Calibration",
-      "description": "For SlimeVR trackers to work, we need to assign a mounting rotation to your trackers to align them with your physical tracker mounting.",
-      "manual-mounting": "Manually set mounting",
-      "next": "Next step",
-      "prev-step": "Previous step",
+      "back": "Quay lại đến vào VR",
+      "title": "Đo vị trí đặt",
+      "description": "Để SlimeVR hoạt động, bạn cần đạt chiều hướng quay của tracker để khớp với điểm đặt tracker trên cơ thể",
+      "manual-mounting": "Đặt vị trí thủ công",
+      "next": "Bước tiếp theo",
+      "prev-step": "Bước trước",
       "done": {
-        "title": "Mounting rotations calibrated.",
-        "description": "Your mounting calibration is complete!",
-        "restart": "Return to start"
+        "title": "Hướng quay đã được đo.",
+        "description": "Cài đặt vị trí đã hoàn thành!",
+        "restart": "Quay lại bắt đầu"
       },
       "mounting-reset": {
-        "title": "Mounting Reset",
+        "title": "Reset vị trí",
         "step": {
-          "0": "1. Squat in a \"skiing\" pose with your legs bent, your upper body tilted forwards, and your arms bent.",
-          "1": "2. Press the \"Reset Mounting\" button and wait for 3 seconds before the trackers' mounting rotations will reset."
+          "0": "1. Ngồi xổm trong tư thế \"skiing\" với hai chân cong, thân trên nghiêng về phía trước và hai cánh tay cong.",
+          "1": "2. Nhấn nút \"Reset Mounting\" và đợi trong 3 giây trước khi các vòng quay giá đỡ của thiết bị theo dõi sẽ được đặt lại."
         }
       },
       "preparation": {
-        "title": "Preparation",
+        "title": "Chuẩn bị",
         "step": {
-          "0": "1. Stand upright with your arms to your sides.",
-          "1": "2. Press the \"Reset\" button and wait for 3 seconds before the trackers will reset."
+          "0": "1. Đứng thẳng với hai cánh tay sang hai bên.",
+          "1": "2. Nhấn nút \"Reset\" và đợi trong 3 giây trước khi trình theo dõi sẽ đặt lại."
         }
       },
       "put-trackers-on": {
-        "title": "Put on your trackers",
-        "description": "To calibrate mounting rotations, we're gonna use the trackers you just assigned. Put on all your trackers, you can see which are which in the figure to the right.",
-        "next": "I have all my trackers on"
+        "title": "Hãy đeo tracker lên người",
+        "description": "Để đo chiều quay của tracker, phần mềm sẽ sử dụng tracker mà bạn đã giao cho. Hãy đeo lên tất cả tracker, và xem cái nào là cái nào trên hình bên phải",
+        "next": "Hoàn thành (Gắn xong)"
       }
     },
     "manual-proportions": {
-      "back": "Go Back to Reset tutorial",
-      "title": "Manual Body Proportions",
-      "precision": "Precision adjust",
-      "auto": "Automatic calibration"
+      "back": "Quay lại hướng dẫn reset",
+      "title": "Cài bộ phận cơ thể thủ công",
+      "precision": "Chỉnh độ chính xác",
+      "auto": "Đo cơ thể tự động"
     },
     "automatic-proportions": {
-      "back": "Go Back to Reset tutorial",
-      "title": "Measure your body",
-      "description": "For SlimeVR trackers to work, we need to know the length of your bones. This short calibration will measure it for you.",
-      "manual": "Manual calibration",
-      "prev-step": "Previous step",
+      "back": "Quay lại hướng dẫn reset",
+      "title": "Đo cơ thể",
+      "description": "Để SlimeVR hoạt động, phần mềm cần biết chiều dài của thân. Bước đo tự động này sẽ giúp bạn.",
+      "manual": "Đo thủ công",
+      "prev-step": "Bước trước",
       "put-trackers-on": {
-        "title": "Put on your trackers",
-        "description": "To calibrate your proportions, we're gonna use the trackers you just assigned. Put on all your trackers, you can see which are which in the figure to the right.",
-        "next": "I have all my trackers on"
+        "title": "Đeo tất cả",
+        "description": "Để đo bộ phận, phần mềm sẽ sử dụng tracker mà bạn đã giao cho. Hãy đeo lên tất cả tracker, và xem cái nào là cái nào trên hình bên phải.",
+        "next": "Hoàn thành (Gắn xong)"
       },
       "preparation": {
-        "title": "Preparation",
-        "description": "Place a chair directly behind you inside your play space. Be prepared to sit down during the autobone setup.",
-        "next": "I am in front of a chair"
+        "title": "Chuẩn bị",
+        "description": "Đặt ghế đằng sau bạn thẳng trong khu vực chơi VR. Hãy chuẩn bị ngồi trong khi cài đặt đo thân tự động.",
+        "next": "Tôi đang đứng trước ghế ngồi"
       },
       "start-recording": {
-        "title": "Get ready to move",
-        "description": "We're now going to record some specific poses and moves. These will be prompted in the next screen. Be ready to start when the button is pressed!",
-        "next": "Start Recording"
+        "title": "Chuẩn bị cử động",
+        "description": "Phần mềm sẽ ghi một số củ động cử chỉ. Bước này sẽ bắt đầu ở màn hình tiếp theo. Hãy chuẩn bị khi bấm bắt đầu",
+        "next": "Bắt đầu quay"
       },
       "recording": {
-        "title": "REC",
-        "description.p0": "Recording in progress...",
-        "description.p1": "Make the moves shown below:",
+        "title": "Quay",
+        "description.p0": "Đang quay...",
+        "description.p1": "Hãy cử động theo hướng dẫn sau:",
         "steps": {
-          "0": "Bend knees a few times.",
-          "1": "Sit on a chair then stand up.",
-          "2": "Twist upper body left, then bend right.",
-          "3": "Twist upper body right, then bend left.",
-          "4": "Wiggle around until timer ends."
+          "0": "Cong đầu gối vài lần.",
+          "1": "Ngồi lên ghế rồi đứng lên.",
+          "2": "Vặn thân trên sang trái, sau đó uốn cong sang phải.",
+          "3": "Vặn thân trên sang phải, sau đó uốn cong sang trái.",
+          "4": "Đảo xung quanh cho đến khi bộ đếm thời gian kết thúc."
         },
-        "processing": "Processing the result",
-        "timer": "{{time}} seconds left"
+        "processing": "Đang xử lí kết quả",
+        "timer": "Còn {{time}} giây"
       },
       "verify-results": {
-        "title": "Verify results",
-        "description": "Check the results below, do they look correct?",
-        "results": "Recording results",
-        "processing": "Processing the result",
-        "redo": "Redo recording",
-        "confirm": "They're correct"
+        "title": "Xác nhận kết quả",
+        "description": "Kiểm tra kết quả dưới đây, nó có chính xác không?",
+        "results": "Đang ghi kết quả",
+        "processing": "Đang xử lí kết quả",
+        "redo": "Ghi lại",
+        "confirm": "Kết quả này chính xác!"
       },
       "done": {
-        "title": "Body measured and saved.",
-        "description": "Your body proportions calibration is complete!"
+        "title": "Thân đã được đo và lưu.",
+        "description": "Quá trình đo thân đã hoàn thành!"
       }
     }
   },
   "home": {
-    "no-trackers": "No trackers detected or assigned"
+    "no-trackers": "Không tracker nào được phát hiện hoặc giao vị trí"
   }
 }

@@ -2,6 +2,7 @@ import i18next from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import en from './en/translation.json';
 import fr from './fr/translation.json';
+import vi from './vi/translation.json';
 
 export const defaultNS = 'tanslations';
 
@@ -16,7 +17,7 @@ export const langs = [
   },
   {
     name: 'Tiếng Việt',
-    key: 'vn',
+    key: 'vi',
   },
 ];
 
@@ -27,8 +28,8 @@ export const resources = {
   fr: {
     tanslations: fr,
   },
-  vn: {
-    tanslations: vn,
+  vi: {
+    tanslations: vi,
   },
 };
 
